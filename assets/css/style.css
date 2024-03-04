@@ -1,0 +1,151 @@
+* {
+    font-family: 'poppins';
+}
+
+:root {
+    --color-naranjita: #e87273;
+    --color-naranjita-secundario: #d1696a;
+    --color-letra-gris: #909090;
+    --color-fondo: #242830;
+}
+
+body {
+    margin: 0;
+    background: var(--color-fondo);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.primary-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px
+}
+
+.primary-nav li {
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff;
+}
+
+.logo {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-family: "recursive";
+    font-style: italic;
+    font-size: 71px;
+    color: var(--color-naranjita);
+}
+
+.container h2 {
+    font-size: 29px;
+    color: #FFFFFF;
+}
+
+#articles {
+    border-top: 3px solid #4d4d4d0c;
+    border-bottom: 3px solid #4d4d4d0c;
+}
+
+.secondary-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.secondary-nav li {
+    font-family: "recursive";
+    font-style: italic;
+    font-size: 15px;
+    line-height: 32.4px;
+    padding: 0 30px;
+    display: inline-block;
+    color: var(--color-letra-gris);
+}
+
+.article-container {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.article-item {
+    padding: 20px;
+    border-radius: 16px;
+    background: #fff;
+}
+
+.article-item img {
+    width: 100%;
+}
+
+.article-item-active {
+    padding: 20px;
+    border-radius: 16px;
+    background: #fff;
+}
+
+.article-item h6 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.final-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.final-nav li {
+    display: inline-block;
+    font-family: "recursive";
+    font-style: italic;
+    font-size: 17px;
+    color: var(--color-letra-gris);
+    padding: 0 10px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+#about p {
+    display: inline;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    background: #5a96e1;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.final-nav li:hover {
+    color: var(--color-naranjita);
+    border-top: 3px solid var(--color-naranjita);
+}
+
+
